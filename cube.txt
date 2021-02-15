@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+    int n;
+    printf("enter the side of square \n");
+    scanf("%d",&n);
+    int vol=n*n*n;
+    int vol1=1;
+    int num=vol/vol1;
+    printf("number of small cubes from cube of side %d are: %d",n,num);
+    return 0;
+}
+  

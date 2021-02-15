@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main()
+{
+   char a[100];
+   int age;
+   long long int num;
+   float per;
+   printf("Enter your name \n");
+   gets(a);
+   printf("Enter your age \n");
+   scanf("%d",&age);
+   printf("Enter your number \n");
+   scanf("%lld",&num);
+   printf("Enter your percentage in metric class \n");
+   scanf("%f",&per);
+   printf("Name : ");
+   puts(a);
+   printf("\nAge: %d",age);
+   printf("\nYour number: %lld",num);
+   printf("\n Metric percentage: %f",per);
+   return 0;
+}

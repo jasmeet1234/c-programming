@@ -1,0 +1,37 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+
+
+int main() 
+{int a,b;
+const char *ar[9]={"one","two","three","four","five","six","seven","eight","nine"};
+    scanf("%d %d",&a,&b);
+    if((a<=9)&&(b<=9))
+    {
+        for(int i=a-1;i<b;i++)
+        {
+printf("%s \n",ar[i]);
+        }
+    }
+    else {
+    for(int j=a-1;j<9;j++)
+    {
+        printf("%s \n",ar[j]);
+    }
+    for(int k=10;k<=b;k++)
+    {
+        if(k%2==0)
+        {
+            printf("even \n");
+        }
+        else
+        {
+            printf("odd \n");
+        }
+    }
+    }
+    return 0;
+}

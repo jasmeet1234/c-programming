@@ -1,0 +1,8 @@
+#include<stdio.h>
+int main()
+{
+printf("Let the speed of car be x \nThen speed of train will be 1.5x\nThe distance from A to B is 75km\nAnd diffrence in time of car and train is 12.5 min\n");   
+int n=(25*24)/5;
+printf("the equation will be n=(25*24)/5 \nthe speed of car is %d km per hour and speed of train is %f km per hour",n,1.5*n);
+return 0;
+}

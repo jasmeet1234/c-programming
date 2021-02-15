@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main()
+{
+   char a[100];
+   int age;
+   long long int num;
+   float per;
+   printf("Enter your name \n");
+   gets(a);
+   printf("Enter your age \n");
+   scanf("%d",&age);
+   printf("Enter your number \n");
+   scanf("%lld",&num);
+   printf("Enter your percentage in metric class \n");
+   scanf("%f",&per);
+   printf("***************STUDENT DATABASE******************\n");
+   printf("Enter name in capital letters:");
+   puts(a);
+   printf("\nEnter age        :%d \n",age);
+   printf("Enter contact number   :%lld\n",num);
+   printf("Enter percentage in metric:%f\n",per);
+   printf("Thank you.Your data has been saved in our system\n");
+   printf("****************************************************************\n");
+   return 0;
+}

@@ -1,0 +1,61 @@
+#include<stdio.h>
+#include<math.h>
+
+int max_of_four(int x,int y,int z,int q)
+{
+int j,k,g;
+g=x;
+for(j=0;j<4;j++)
+{
+    if((g>=x)||(g>=y))
+    {
+        break;
+    }
+    else if ((g>=z)||(g>=q))
+    {
+        break;
+    }
+   
+     else 
+     {
+        for(k=0;k<4;k++)
+        {
+if(g<=x)
+{
+    g=x;
+    break;
+}
+else if(g<=y)
+{
+    g=y;
+    break;
+}
+ else if(g<=z)
+{
+    g=z;
+    break;
+}
+ else if(g<=q)
+{
+    g=q;
+    break;
+}
+        
+        }
+        break;
+    }
+}
+return g;
+}
+int main()
+{
+int a,b,c,d,result,o;
+scanf("%d %d %d %d",&a,&b,&c,&d);
+max_of_four(a,b, c, d);
+printf("%d",max_of_four(a,b,c,d));
+return 0;
+
+
+
+
+}

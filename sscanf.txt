@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main()
+{
+   char s[]="how are you jasmeet singh";
+   char str1[10],str2[10];
+   sscanf(s,"%*s %*s %*s %s %s",str1,str2);
+   printf("%s \n %s",str1,str2);
+   return 0;
+    
+}

@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main()
+{
+  float a=29.12444;
+  printf("%12f\n",a);
+  printf("%-12f\n",a);
+  return 0;
+}
